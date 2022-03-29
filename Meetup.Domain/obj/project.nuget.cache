@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "2Tork7LZGHRmd8M1mSbbnl5QnkDVI5S4BJTQZasz1Z6wUhQ8SmTDYs5vuHNHLNIl7tN/1pdQGxCwBA05LQG9LQ==",
+  "dgSpecHash": "bfGazCtX8ttd1UGMpPj4jED7u6gLxqhLJArFzabT37JvUM4fH41m3iQEOUmEpdtZ+1F657b33p7stY2d/n5Utw==",
   "success": true,
   "projectFilePath": "D:\\projects\\Meetup-API\\Meetup-API\\Meetup.Domain\\Meetups.Domain.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.15\\microsoft.entityframeworkcore.5.0.15.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.15\\microsoft.entityframeworkcore.abstractions.5.0.15.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.15\\microsoft.entityframeworkcore.analyzers.5.0.15.nupkg.sha512",

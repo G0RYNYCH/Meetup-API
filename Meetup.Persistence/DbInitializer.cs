@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Meetups.Persistence
 {
-    //starts with the app and checks weather a database exists or not
+    /// <summary>
+    /// Starts with the app and checks weather a database exists or not
+    /// </summary>
     public class DbInitializer
     {
         public static void Initialize (MeetupsDbContext context)
