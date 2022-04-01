@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "rXds/GzJMXoosY3vkGCqOIrhLSPXFsNvXGP0jHQHau+wTtdmbCv6nnNE56aDfhqPlQHep+ANw/lUijwObnNLgw==",
+  "dgSpecHash": "zpfQtAtxVYI1q68jylq9QU8edMkgu0gHO5gSAXgEyqXrVsNWQeYfXSwXpF0w+p8PKiEN97ESRPYkllHRtXLXYQ==",
   "success": true,
-  "projectFilePath": "D:\\projects\\Meetup-API\\Meetup-API\\Meetup.Aplication\\Meetups.Aplication.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\Source\\Repos\\G0RYNYCH\\Meetup-API\\Meetup.Aplication\\Meetups.Aplication.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.15\\microsoft.entityframeworkcore.5.0.15.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.15\\microsoft.entityframeworkcore.abstractions.5.0.15.nupkg.sha512",

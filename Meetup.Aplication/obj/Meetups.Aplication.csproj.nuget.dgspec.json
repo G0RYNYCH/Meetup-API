@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\projects\\Meetup-API\\Meetup-API\\Meetup.Aplication\\Meetups.Aplication.csproj": {}
+    "C:\\Users\\Admin\\Source\\Repos\\G0RYNYCH\\Meetup-API\\Meetup.Aplication\\Meetups.Aplication.csproj": {}
   },
   "projects": {
-    "D:\\projects\\Meetup-API\\Meetup-API\\Meetup.Aplication\\Meetups.Aplication.csproj": {
+    "C:\\Users\\Admin\\Source\\Repos\\G0RYNYCH\\Meetup-API\\Meetup.Aplication\\Meetups.Aplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\projects\\Meetup-API\\Meetup-API\\Meetup.Aplication\\Meetups.Aplication.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Source\\Repos\\G0RYNYCH\\Meetup-API\\Meetup.Aplication\\Meetups.Aplication.csproj",
         "projectName": "Meetups.Aplication",
-        "projectPath": "D:\\projects\\Meetup-API\\Meetup-API\\Meetup.Aplication\\Meetups.Aplication.csproj",
+        "projectPath": "C:\\Users\\Admin\\Source\\Repos\\G0RYNYCH\\Meetup-API\\Meetup.Aplication\\Meetups.Aplication.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\projects\\Meetup-API\\Meetup-API\\Meetup.Aplication\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Source\\Repos\\G0RYNYCH\\Meetup-API\\Meetup.Aplication\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\projects\\Meetup-API\\Meetup-API\\Meetup.Domain\\Meetups.Domain.csproj": {
-                "projectPath": "D:\\projects\\Meetup-API\\Meetup-API\\Meetup.Domain\\Meetups.Domain.csproj"
+              "C:\\Users\\Admin\\Source\\Repos\\G0RYNYCH\\Meetup-API\\Meetup.Domain\\Meetups.Domain.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Source\\Repos\\G0RYNYCH\\Meetup-API\\Meetup.Domain\\Meetups.Domain.csproj"
               }
             }
           }
@@ -47,6 +47,10 @@
             "AutoMapper": {
               "target": "Package",
               "version": "[11.0.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[10.0.1, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -76,14 +80,14 @@
         }
       }
     },
-    "D:\\projects\\Meetup-API\\Meetup-API\\Meetup.Domain\\Meetups.Domain.csproj": {
+    "C:\\Users\\Admin\\Source\\Repos\\G0RYNYCH\\Meetup-API\\Meetup.Domain\\Meetups.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\projects\\Meetup-API\\Meetup-API\\Meetup.Domain\\Meetups.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Source\\Repos\\G0RYNYCH\\Meetup-API\\Meetup.Domain\\Meetups.Domain.csproj",
         "projectName": "Meetups.Domain",
-        "projectPath": "D:\\projects\\Meetup-API\\Meetup-API\\Meetup.Domain\\Meetups.Domain.csproj",
+        "projectPath": "C:\\Users\\Admin\\Source\\Repos\\G0RYNYCH\\Meetup-API\\Meetup.Domain\\Meetups.Domain.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\projects\\Meetup-API\\Meetup-API\\Meetup.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Source\\Repos\\G0RYNYCH\\Meetup-API\\Meetup.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -115,6 +119,10 @@
             "AutoMapper": {
               "target": "Package",
               "version": "[11.0.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[10.0.1, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
