@@ -20,7 +20,7 @@ namespace Meetups.Aplication.Common.Mapping
         {
             var typesThatImplementIMapWith = assembly.GetExportedTypes()
                 .Where(type => type.GetInterfaces()
-                .Any(x => x.IsGenericType && x.GetGenericTypeDefinition() = typeof(IMapWith<>)))
+                .Any(x => x.IsGenericType && x.GetGenericTypeDefinition() == typeof(IMapWith<>)))
                 .ToList();
 
             foreach (var type in typesThatImplementIMapWith)

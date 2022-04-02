@@ -6,7 +6,8 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Meetups.Aplication.Meetups.Commands.CreateMeetup
-{//класс содержит только то, что неабходимо для создания митапа
+{
+    //класс содержит только то, что неабходимо для создания митапа
     public class CreateMeetupCommand : IRequest<Guid>
     {
         public Guid UserId { get; set; }

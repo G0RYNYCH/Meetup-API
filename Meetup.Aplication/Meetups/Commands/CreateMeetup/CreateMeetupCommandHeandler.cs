@@ -12,7 +12,7 @@ namespace Meetups.Aplication.Meetups.Commands.CreateMeetup
 {// класс на основании того, что неабходимо для создания митапа, содержит в себе логику для создания 
     public class CreateMeetupCommandHandler : IRequestHandler<CreateMeetupCommand, Guid> //указываем интерфейсу тип запроса и тип ответ соответственно
     {
-        private readonly IMeetupsDbContext _dbContext;
+        private readonly IMeetupsDbContext _dbContext;//для сохранения изменений сделаем внедрениение зависимости на контекс бд в данный класс через конструктор
 
         public CreateMeetupCommandHandler(IMeetupsDbContext dbContext) => _dbContext = dbContext;
         //логика создания содержится в методе hendle
