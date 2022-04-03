@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using Meetups.Domain;
+using Meetups.Aplication.Common.Exceptions;
 
 namespace Meetups.Aplication.Meetups.Queries.GetMeetupDetails
 {
@@ -25,12 +26,14 @@ namespace Meetups.Aplication.Meetups.Queries.GetMeetupDetails
 
         public async Task<MeetupDetailsViewModel> Handle(GetMeetupDetailsQuery request, CancellationToken cancellationToken)
         {
-            var entity = _dbContext.Meetups.FirstOrDefaultAsync(meetup => meetup.Id == request.Id, cancellationToken);
+            var entity = await _dbContext.Meetups.FirstOrDefaultAsync(meetup => meetup.Id == request.Id, cancellationToken);
 
             if (entity == null || entity.UserId != request.UserId)
             {
-
+                throw new NotFoundException(nameof(Meetup), request.Id);
             }
+
+            return _mapper.Map<MeetupDetailsViewModel>(entity);
         }
     }
 }
