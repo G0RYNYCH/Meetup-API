@@ -4,14 +4,94 @@
     "C:\\Users\\Admin\\Source\\Repos\\G0RYNYCH\\Meetup-API\\Meetup.WebAPI\\Meetups.WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Source\\Repos\\G0RYNYCH\\Meetup-API\\Meetup.WebAPI\\Meetups.WebAPI.csproj": {
+    "C:\\Users\\Admin\\Source\\Repos\\G0RYNYCH\\Meetup-API\\Meetup.Aplication\\Meetups.Aplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Source\\Repos\\G0RYNYCH\\Meetup-API\\Meetup.WebAPI\\Meetups.WebAPI.csproj",
-        "projectName": "Meetups.WebAPI",
-        "projectPath": "C:\\Users\\Admin\\Source\\Repos\\G0RYNYCH\\Meetup-API\\Meetup.WebAPI\\Meetups.WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Source\\Repos\\G0RYNYCH\\Meetup-API\\Meetup.Aplication\\Meetups.Aplication.csproj",
+        "projectName": "Meetups.Aplication",
+        "projectPath": "C:\\Users\\Admin\\Source\\Repos\\G0RYNYCH\\Meetup-API\\Meetup.Aplication\\Meetups.Aplication.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Source\\Repos\\G0RYNYCH\\Meetup-API\\Meetup.WebAPI\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Source\\Repos\\G0RYNYCH\\Meetup-API\\Meetup.Aplication\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Admin\\Source\\Repos\\G0RYNYCH\\Meetup-API\\Meetup.Domain\\Meetups.Domain.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Source\\Repos\\G0RYNYCH\\Meetup-API\\Meetup.Domain\\Meetups.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.15, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Admin\\Source\\Repos\\G0RYNYCH\\Meetup-API\\Meetup.Domain\\Meetups.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Admin\\Source\\Repos\\G0RYNYCH\\Meetup-API\\Meetup.Domain\\Meetups.Domain.csproj",
+        "projectName": "Meetups.Domain",
+        "projectPath": "C:\\Users\\Admin\\Source\\Repos\\G0RYNYCH\\Meetup-API\\Meetup.Domain\\Meetups.Domain.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Source\\Repos\\G0RYNYCH\\Meetup-API\\Meetup.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,6 +125,173 @@
               "version": "[11.0.1, )"
             },
             "MediatR": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.15, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Admin\\Source\\Repos\\G0RYNYCH\\Meetup-API\\Meetup.Persistence\\Meetups.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Admin\\Source\\Repos\\G0RYNYCH\\Meetup-API\\Meetup.Persistence\\Meetups.Persistence.csproj",
+        "projectName": "Meetups.Persistence",
+        "projectPath": "C:\\Users\\Admin\\Source\\Repos\\G0RYNYCH\\Meetup-API\\Meetup.Persistence\\Meetups.Persistence.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Source\\Repos\\G0RYNYCH\\Meetup-API\\Meetup.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Admin\\Source\\Repos\\G0RYNYCH\\Meetup-API\\Meetup.Aplication\\Meetups.Aplication.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Source\\Repos\\G0RYNYCH\\Meetup-API\\Meetup.Aplication\\Meetups.Aplication.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.15, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Admin\\Source\\Repos\\G0RYNYCH\\Meetup-API\\Meetup.WebAPI\\Meetups.WebAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Admin\\Source\\Repos\\G0RYNYCH\\Meetup-API\\Meetup.WebAPI\\Meetups.WebAPI.csproj",
+        "projectName": "Meetups.WebAPI",
+        "projectPath": "C:\\Users\\Admin\\Source\\Repos\\G0RYNYCH\\Meetup-API\\Meetup.WebAPI\\Meetups.WebAPI.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Source\\Repos\\G0RYNYCH\\Meetup-API\\Meetup.WebAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Admin\\Source\\Repos\\G0RYNYCH\\Meetup-API\\Meetup.Aplication\\Meetups.Aplication.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Source\\Repos\\G0RYNYCH\\Meetup-API\\Meetup.Aplication\\Meetups.Aplication.csproj"
+              },
+              "C:\\Users\\Admin\\Source\\Repos\\G0RYNYCH\\Meetup-API\\Meetup.Persistence\\Meetups.Persistence.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Source\\Repos\\G0RYNYCH\\Meetup-API\\Meetup.Persistence\\Meetups.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[10.0.1, )"
             },

@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 
 namespace Meetup.WebAPI
 {
+    //конфигурация приложения
     public class Startup
     {
         // This method gets called by the runtime. Use this method to add services to the container.
